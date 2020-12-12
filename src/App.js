@@ -23,7 +23,7 @@ function App() {
           <Route path='/capture-project/' exact>
             <AboutUs />
           </Route>
-          <Route path='/capture-project//work' exact>
+          <Route path='/capture-project/work' exact>
             <OurWork />
           </Route>
           <Route path='/capture-project/work/:id'>
