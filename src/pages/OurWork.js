@@ -29,7 +29,7 @@ const OurWork = () => {
             <Movie>
                 <motion.h2 variants={fade}>The Athlete</motion.h2>
                 <motion.div variants={lineAnim} className='line'></motion.div>
-                <Link to='/work/the-athlete'>
+                <Link to='/capture-project/work/the-athlete'>
                     <Hide>
                         <motion.img variants={photoAnim} src={athlete} alt='The Athlete' />
                     </Hide>
@@ -43,7 +43,7 @@ const OurWork = () => {
             >
                 <h2>The Racer</h2>
                 <motion.div variants={lineAnim} className='line'></motion.div>
-                <Link to='/work/the-racer'>
+                <Link to='/capture-project/work/the-racer'>
                 <img src={theracer} alt='The Racer' />
                 </Link>
             </Movie>
@@ -55,7 +55,7 @@ const OurWork = () => {
             >
                 <h2>Good Times</h2>
                 <motion.div variants={lineAnim} className='line'></motion.div>
-                <Link to='/work/good-times'>
+                <Link to='/capture-project/work/good-times'>
                 <img src={goodtimes} alt='Good Times' />
                 </Link>
             </Movie>
