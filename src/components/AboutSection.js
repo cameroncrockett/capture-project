@@ -1,5 +1,6 @@
 import home1 from '../img/home1.png';
 import {About, Description, Image, Hide} from '../styles';
+import {Link} from 'react-router-dom';
 // Framer motion
 import {motion} from 'framer-motion';
 import {titleAnim, fade, photoAnim} from '../animation';
